@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dad9d9e1;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+    height: 50px;
+}
+
+/* Navigation Menu */
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: rgb(252, 249, 250);
+}
+
+/* Heading Styles */
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #d16044;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+h1 {
+    background-color: rgb(206, 198, 198);
+}
+
+h2 {
+    background-color: rgb(248, 194, 178);
+}
+
+/* Content Blocks */
+#block1, #block2 {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888;
+}
+
+#block1 {
+    background-color: rgb(149, 224, 224);
+    width: 50%;
+    float: left;
+}
+
+#block2 {
+    background-color: rgb(117, 26, 46);
+    width: 50%;
+    float: left;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+input[type="text"] {
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin-right: 10px;
+}
+
+input[type="button"] {
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="button"]:hover {
+    background-color: #444;
+}
+
+/* Result Messages */
+#message, #result {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#message {
+    color: red;
+}
+
+#result {
+    color: #333;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    height: 50px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    margin-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
